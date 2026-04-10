@@ -3,18 +3,18 @@
 body {
     background-color: #f9f9f9;
     font-family: 'Roboto', sans-serif;
-    margin: 7vw;
+    margin: 8vw;
 }
 
 p {
-  font-size: 15px;
+  font-size: 25px;
   line-height: 1.5;
 }
 
 /* PC */
 @media (min-width: 768px) {
   body {
-    margin: 120px;
+    margin: 150px;
   }
 
   p {
