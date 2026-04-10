@@ -3,7 +3,7 @@
 body {
     background-color: #f9f9f9;
     font-family: 'Roboto', sans-serif;
-    margin: 8vw;
+    margin: 40px 40px;
 }
 
 p {
@@ -14,7 +14,7 @@ p {
 /* PC */
 @media (min-width: 768px) {
   body {
-    margin: 150px;
+    margin: 75px;
   }
 
   p {
