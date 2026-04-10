@@ -3,12 +3,21 @@
 body {
     background-color: #f9f9f9;
     font-family: 'Roboto', sans-serif;
-    margin: 6vw;
+    margin: 7vw;
 }
 
-h2, h3, p {
-    color: #000000;
-    font-size: clamp(16px, 5vw, 28px);
-    line-height: 1.4;
-    margin-top: 0;
+p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* PC */
+@media (min-width: 768px) {
+  body {
+    margin: 120px;
+  }
+
+  p {
+    font-size: 25px;
+  }
 }
